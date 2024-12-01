@@ -89,3 +89,27 @@ body{
     padding:0 50px;
 }
 
+#picture {
+    
+    margin: 20px auto;
+    border-radius: 10%;
+    height: 400px;
+    width: 500px;
+}
+.buttons {
+    padding: 10px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    
+}
+#next, #pre{
+    background-color: #bc4749;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    text-shadow: 0px 0px 2px black;
+    font-size: medium;
+}
